@@ -223,6 +223,7 @@ vibrant_errors vibrant_instance_new(vibrant_instance **instance,
                         }
                     }
                 }
+                free(nvDpyIds);
             }
         }
     }
